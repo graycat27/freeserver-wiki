@@ -18,7 +18,7 @@ export default {
 	},
 	computed: {
 		pos () {
-			return Number(items[this.name].pos)
+			return Number(items[this.name]?.pos || items['paper']?.pos)
 		}
 	}
 }

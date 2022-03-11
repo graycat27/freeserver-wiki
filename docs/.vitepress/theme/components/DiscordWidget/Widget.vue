@@ -23,7 +23,7 @@ export default {
 		Member
 	},
 	data: () => ({
-		loading: true,
+		loaded: true,
 		serverData: {}
 	}),
 	props: {
@@ -32,7 +32,7 @@ export default {
 			required: true
 		}
 	},
-	async created () {
+	async mounted () {
 		this.serverData = await (await fetch(this.url)).json();
 		this.loaded = false;
 	}

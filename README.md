@@ -1,11 +1,12 @@
 # FREESERVER Wiki
 Welcome to FREESERVER Wiki!
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56a0c5fe-6a83-4aee-a478-e8e90a1e03ce/deploy-status)](https://app.netlify.com/sites/freeserver-wiki/deploys)
+
 ## 使い方
 masterに対してコミットがあると自動でデプロイされ
 
-Netlifyでビルドされ[wiki.freeserver.pro](https://wiki.freeserver.pro)
-または[freeserver-wiki.netlify.app](https://freeserver-wiki.netlify.app/)に適用されます。
+Netlifyでビルドされ[wiki.freeserver.pro](https://wiki.freeserver.pro)及び[freeserver-wiki.netlify.app](https://freeserver-wiki.netlify.app)に適用されます。
 
 ## ローカルで検証
 ### 必要環境
@@ -21,12 +22,12 @@ npm ci
 ```sh
 npm run docs:dev
 ```
-3. ブラウザでhttp://localhost:3000/にアクセス
+3. ブラウザで[http://localhost:3000/](http://localhost:3000/)にアクセス
 
 この手順を踏むとローカル環境でWikiをリアルタイムで見ることができます。
 Viteなので保存した瞬間記事が更新されてほんとに見たまま編集ができます。
 
-## custom component
+## カスタムHTML要素
 
 ### Minecraft Avatar
 ``` html
@@ -46,3 +47,12 @@ Viteなので保存した瞬間記事が更新されてほんとに見たまま�
 | プロパティ名 | 必須  | デフォルト | 説明 |
 | ------------| ----- | --------- | ---- |
 | URL         | yes   | \-        | Discord WidgetにあるJSON APIのURL |
+
+### Item Sprite
+```html
+<item-sprite name="snowball" :scale="1" />
+``` 
+| プロパティ名 | 必須  | デフォルト | 説明 |
+| ------------| ----- | --------- | ---- |
+| name        | yes   | \-        | [Minecraft Wiki - ItemSprite](https://minecraft.fandom.com/wiki/Template:ItemSprite) ここのアイテム名を入力 |
+| scale       | no    | 1         | 拡大率 |

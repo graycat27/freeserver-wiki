@@ -23,27 +23,14 @@ description: FREESERVERへの投票の方法などが書いてあります！
 建築ワールドスポーン2Fの各種アイテム交換の村人と取引で交換できます！
 
 ![](https://i.imgur.com/8SqxX2P.png)
-## 交換可能なもの
-
-[**レッドストーンのツルハシ**]() 投票コイン100個→レッドストーンツルハシ
-
-![](https://i.imgur.com/0tCMX8F.png)
-
-[**魔法のほうき**](https://wiki.freeserver.pro/item/Magicbroom) 投票コイン4個→魔法のほうき
-
-![](https://i.imgur.com/5cUZv4t.png)
-
-[**雪だるま**](https://discord.com/channels/393963617604861952/528252546423455764/780835488692568094) 投票コイン2個→雪だるま
-
-![](https://i.imgur.com/ttqAuEn.png)
-
-[**ミニツリー**]()投票コイン2個→ミニツリー
-
-![](https://i.imgur.com/ey1Ii9X_d.webp?maxwidth=760&fidelity=grand)
-
-[**サンタの帽子**]()
-
-![](https://imgur.com/5bRBZ6H.png)
 
 <a href="https://minecraft.jp/servers/play.freeserver.pro"><img src="https://minecraft.jp/servers/play.freeserver.pro/banner/1/560x95.png"/></a>
 
+## 交換できるもの
+||||
+| :---: | :---: | :---: |
+| 投票コイン100個 | → | レッドストーンのツルハシ |
+| 投票コイン4個/ログインボーナスコイン4個 | → | [魔法のほうき](item/broom) |
+| 投票コイン6個 | → | ビッグバーガー |
+| 投票コイン | → | 投票の羽 |
+| ログインボーナスコイン| ⇿ |ログインボーナスの鍵石|
