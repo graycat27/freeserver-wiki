@@ -29,7 +29,7 @@ sidebar: true
 ### アカシア
 - 毛玉駅 [2788,66](https://bluemap.freeserver.pro/#world:2794:67:67:39:2.8:0.79:0:0:perspective)
 ### ジャングル
-
+- 新スポーン南方 [1500,2640](https://bluemap.freeserver.pro/#world:1513:64:2639:59:1.04:1.08:0:0:perspective)
 ### 桜
 - 新スポーン南方 [1530,2640](https://bluemap.freeserver.pro/#world:1538:72:2639:59:2.19:0.53:0:0:perspective)
 ### （ネザー）真紅
